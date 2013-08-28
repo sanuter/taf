@@ -88,13 +88,13 @@ applications:
         fallbackOrderHelper: 'Core'
         areas:
             admin:
-                url: 'http://belvg.net/sanuter/tabs/magento/admin/'
+                url: 'http://localhost/magento/admin/'
                 base_page_uimap: 'log_in_to_admin'
                 uimap_path: 'admin'
                 login: 'admin'
                 password: '1q2w3e4r'
             frontend:
-                url: 'http://belvg.net/sanuter/tabs/'
+                url: 'http://localhost/'
                 base_page_uimap: 'home_page'
                 uimap_path: 'frontend'
                 login: ''
