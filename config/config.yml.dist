@@ -94,7 +94,7 @@ applications:
                 login: 'admin'
                 password: '1q2w3e4r'
             frontend:
-                url: 'http://localhost/'
+                url: 'http://localhost/magento/'
                 base_page_uimap: 'home_page'
                 uimap_path: 'frontend'
                 login: ''
