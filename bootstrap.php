@@ -34,6 +34,8 @@ define('SELENIUM_TESTS_SCREENSHOTDIR',
 define('SELENIUM_TESTS_LOGS',
         realpath(SELENIUM_TESTS_BASEDIR . DIRECTORY_SEPARATOR . 'var' . DIRECTORY_SEPARATOR . 'logs'));
 
+date_default_timezone_set('America/Los_Angeles');
+
 set_include_path(implode(PATH_SEPARATOR, array(
             realpath(SELENIUM_TESTS_BASEDIR . DIRECTORY_SEPARATOR . 'framework'),
             realpath(SELENIUM_TESTS_BASEDIR . DIRECTORY_SEPARATOR . 'testsuite'), //To allow load tests helper files
