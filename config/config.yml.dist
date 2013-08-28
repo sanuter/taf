@@ -49,7 +49,7 @@ browsers:
          host: 'localhost'
          port: 4444
          timeout: 60
-    default: *firefox
+    default: *googlechrome
 ################################################################################
 #                                                                              #
 #                     Framework configuration                                  #
