@@ -92,7 +92,7 @@ applications:
                 base_page_uimap: 'log_in_to_admin'
                 uimap_path: 'admin'
                 login: 'admin'
-                password: '1q2w3e4r'
+                password: 'password123'
             frontend:
                 url: 'http://localhost/magento/'
                 base_page_uimap: 'home_page'
